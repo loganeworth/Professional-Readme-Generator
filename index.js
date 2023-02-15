@@ -83,7 +83,12 @@ ${answers.description}
 
 ## Table of Contents
 
-
+[Installation](#installation) <br>
+[Usage](#usage) <br>
+[Crontributing](#crontributing) <br>
+[Tests](#tests) <br>
+[Questions](#questions) <br>
+[License](#license) <br>
 
 ## Installation
 
@@ -122,13 +127,13 @@ function renderLicense(licenseData) {
     GNU GPL v2 is a copyleft license.
     `
   else (licenseData === 'Apache')
-    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) <br>
     Apache is permissive and allows users to use the software for any purpose.
     `
   
 }
 
-  fs.writeFile('message.md', text, 'utf8', (err)=>{
+  fs.writeFile('README.md', text, 'utf8', (err)=>{
     if(err)
       console.log(error)
 
