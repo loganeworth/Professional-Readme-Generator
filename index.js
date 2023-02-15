@@ -113,6 +113,12 @@ Please contact me at ${answers.email} with any questions.
 ## License
 
 ${renderLicense(answers.license)}
+
+## Links
+
+Deployed page: 
+
+Github Repository: https://github.com/loganeworth/Professional-Readme-Generator
 `
 
 
