@@ -76,19 +76,19 @@ let text = `
 
 ${answers.description}
 
-## Installation Instructions
+## Installation
 
 ${answers.install}
 
-## Usage Information
+## Usage
 
 ${answers.usage}
 
-## Contribution Guidelines
+## Contributing
 
 ${answers.contribution}
 
-## Test Instructions
+## Tests
 
 ${answers.test}
 
