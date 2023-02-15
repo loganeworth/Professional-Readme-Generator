@@ -58,6 +58,11 @@ let questions = [{
   name: 'test'
 },
 {
+  message: 'enter email',
+  type: 'input',
+  name: 'email'
+},
+{
   message: 'which license would you like to use?',
   type: 'list',
   name: 'license',
@@ -76,6 +81,10 @@ let text = `
 
 ${answers.description}
 
+## Table of Contents
+
+
+
 ## Installation
 
 ${answers.install}
@@ -91,6 +100,10 @@ ${answers.contribution}
 ## Tests
 
 ${answers.test}
+
+## Questions
+
+Please contact me at ${answers.email} with any questions.
 
 ## License
 
